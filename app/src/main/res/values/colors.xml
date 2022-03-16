@@ -1,10 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="a1">#e4f68f</color>
+    <color name="a2">#50c19a</color>
+    <color name="a3">#686354</color>
+    <color name="a4">#444036</color>
+
+    <color name="b1">#8fcfd1</color>
+    <color name="b2">#df5e88</color>
+    <color name="b3">#f6ab6c</color>
+    <color name="b4">#f6efa6</color>
+
+    <color name="c1">#7eb19f</color>
+    <color name="c2">#0c8282</color>
+    <color name="c3">#ef9037</color>
+    <color name="c4">#edddbd</color>
+
+    <color name="d1">#2a1a5e</color>
+    <color name="d2">#f45905</color>
+    <color name="d3">#fb9224</color>
+    <color name="d4">#fbe555</color>
+
+    <color name="e1">#39311d</color>
+    <color name="e2">#7e7474</color>
+    <color name="e3">#c4b6b6</color>
+    <color name="e4">#ffdd93</color>
+
+    <color name="f1">#fbfbfb</color>
+    <color name="f2">#b1d056</color>
+    <color name="f3">#e0ff59</color>
+    <color name="f4">#ffa33e</color>
+
+    <color name="g1">#303a52</color>
+    <color name="g2">#574b90</color>
+    <color name="g3">#9e579d</color>
+    <color name="g4">#fc85ae</color>
+
+    <color name="h1">#ee8572</color>
+    <color name="h2">#35495e</color>
+    <color name="h3">#347474</color>
+    <color name="h4">#63b7af</color>
+
+    <color name="i1">#1b5a7a</color>
+    <color name="i2">#1aa59a</color>
+    <color name="i3">#a6ed8e</color>
+    <color name="i4">#f3ffb9</color>
+
+    <color name="j1">#1c1124</color>
+    <color name="j2">#684656</color>
+    <color name="j3">#de774e</color>
+    <color name="j4">#b7e1b5</color>
+
+    <color name="k1">#a8e6cf</color>
+    <color name="k2">#dcedc1</color>
+    <color name="k3">#ffd3b6</color>
+    <color name="k4">#ffaaa5</color>
+
+    <color name="l1">#000033</color>
+    <color name="l2">#0066cc</color>
+    <color name="l3">#0099ff</color>
+    <color name="l4">#ededed</color>
 </resources>
