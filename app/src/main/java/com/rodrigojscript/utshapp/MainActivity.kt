@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         btnAdmin = findViewById(R.id.btnAdmin)
 
         btnAlumnos.setOnClickListener{
-            val intento = Intent(this,  MainActivity2::class.java)
+            val intento = Intent(this,  Alumnos::class.java)
             startActivity(intento)
         }
         btnAdmin.setOnClickListener{

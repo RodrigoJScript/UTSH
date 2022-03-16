@@ -8,13 +8,13 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.ProgressBar
 
-class MainActivity2 : AppCompatActivity() {
+class Alumnos : AppCompatActivity() {
     lateinit var myWebView: WebView
     private var pbCarga: ProgressBar? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main2)
+        setContentView(R.layout.activity_alumnos)
         myWebView = findViewById(R.id.webview)
         pbCarga = findViewById(R.id.pbCarga)
 

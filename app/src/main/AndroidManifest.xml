@@ -16,7 +16,7 @@
             android:name=".Administrativos"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".Alumnos"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
