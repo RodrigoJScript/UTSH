@@ -66,6 +66,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/btnAlum"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ic_alumno"
-        android:background=""/>
+        app:srcCompat="@drawable/ic_alumno" />
 </androidx.constraintlayout.widget.ConstraintLayout>
