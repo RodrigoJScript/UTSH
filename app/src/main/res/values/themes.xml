@@ -2,7 +2,11 @@
     <!-- Base application theme. -->
     <style name="theme_1" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
 
-        <item name="android:background">@color/a1</item>
-        <item name="android:button">@color/a2</item>
+        <item name="colorSecondaryVariant">@color/a1</item>
+        <item name="colorPrimary">@color/a2</item>
+        <item name="colorSecondary">@color/a3</item>
+
+        <item name="android:windowBackground">?attr/colorSecondary</item>
+        <item name="android:textAppearanceButton">?attr/colorSecondaryVariant</item>
     </style>
 </resources>
