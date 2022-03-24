@@ -9,9 +9,9 @@ import org.imaginativeworld.whynotimagecarousel.model.CarouselItem
 
 class MainActivity : AppCompatActivity() {
 
-    lateinit var  btnAlumnos: Button
-    lateinit var btnAdmin: Button
-    lateinit var carousel: ImageCarousel
+    private lateinit var  btnAlumnos: Button
+    private lateinit var btnAdmin: Button
+    private lateinit var carousel: ImageCarousel
     var list = mutableListOf<CarouselItem>()
 
     override fun onCreate(savedInstanceState: Bundle?) {

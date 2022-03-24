@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UTSHAPP</string>
+    <string name="alumnos">ALUMNOS</string>
+    <string name="administrativos">ADMINISTRATIVOS</string>
+</resources>
