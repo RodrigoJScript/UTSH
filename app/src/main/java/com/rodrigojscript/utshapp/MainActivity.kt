@@ -9,18 +9,20 @@ import org.imaginativeworld.whynotimagecarousel.model.CarouselItem
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var  btnAlumnos: Button
+    private lateinit var btnAlumnos: Button
     private lateinit var btnAdmin: Button
     private lateinit var carousel: ImageCarousel
     var list = mutableListOf<CarouselItem>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTheme(R.style.AppTheme)
+
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         btnAlumnos = findViewById(R.id.btnAlum)
-         btnAdmin = findViewById(R.id.btnAdmin)
-         carousel = findViewById(R.id.carousel)
+        btnAdmin = findViewById(R.id.btnAdmin)
+        carousel = findViewById(R.id.carousel)
 
 
         carousel.registerLifecycle(lifecycle)
@@ -30,12 +32,12 @@ class MainActivity : AppCompatActivity() {
         list.add(CarouselItem(imageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY5t-xeWpUi3aip1uOhHNP1FjuA7lUjzL4C9c_U8waNZeszO2jo8Ts6FtmVLbvbpsACGg&usqp=CAU"))
         carousel.setData(list)
 
-        btnAlumnos.setOnClickListener{
-            val intento = Intent(this,  Alumnos::class.java)
+        btnAlumnos.setOnClickListener {
+            val intento = Intent(this, Alumnos::class.java)
             startActivity(intento)
         }
-        btnAdmin.setOnClickListener{
-            val intento2 = Intent(this,  Administrativos::class.java)
+        btnAdmin.setOnClickListener {
+            val intento2 = Intent(this, Administrativos::class.java)
             startActivity(intento2)
         }
     }
